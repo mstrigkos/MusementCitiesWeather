@@ -38,4 +38,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 Developed by Michael Strigkos
-[MIT](https://github.com/strigkos/MusementCitiesWeather/LICENSE)
+[MIT](https://github.com/mstrigkos/MusementCitiesWeather/LICENSE)
