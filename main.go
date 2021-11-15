@@ -12,4 +12,9 @@ var config map[string]interface{}
 func main() {
 	// Load app configuration from config.json
 	loadConfig("config.json")
+
+	cities := []City{}
+
+	// Fetch the cities from the Musement API
+	getCities(&cities)
 }
