@@ -1,4 +1,4 @@
-# Musement Cities Weather
+# Musement Cities Weather | Michael Strigkos
 
 Musement Cities Weather is a simple CLI application written in Go. The application fetches the cities that [Musement](https://www.musement.com/us/) has available activities and prints to STDOUT a 2-day weather forecast. The weather info is fetched from the [WeatherAPI](https://www.weatherapi.com/).
 
