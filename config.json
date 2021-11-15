@@ -1,0 +1,6 @@
+{
+    "musementAPIURL": "https://sandbox.musement.com/api/v3/cities",
+    "logFile": "errors.log",
+    "weatherAPIURL": "https://api.weatherapi.com/v1/forecast.json",
+    "weatherAPIKey": "30ba692deba345f19f9185654211411"
+}
