@@ -37,4 +37,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
+Developed by Michael Strigkos
 [MIT](https://github.com/strigkos/MusementCitiesWeather/LICENSE)
