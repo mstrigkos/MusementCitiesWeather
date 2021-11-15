@@ -36,6 +36,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+## Documentation about the Task 1
+[https://gist.github.com/mstrigkos/f5286287f73e1922d7e2579e7e193442](https://gist.github.com/mstrigkos/f5286287f73e1922d7e2579e7e193442)
+
 ## License
 Developed by Michael Strigkos
 
