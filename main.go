@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type City struct {
 	Name      string  `json:"name"`
 	Latitude  float64 `json:"latitude"`
@@ -30,4 +32,17 @@ func main() {
 
 	// Fetch the cities from the Musement API
 	getCities(&cities)
+
+	// Open a channel to get co-routine responses
+	ch := make(chan string)
+
+	// For every city launch a go co-routine
+	for _, city := range cities {
+		go getWeather(city, ch)
+	}
+
+	// For the range of cities get the message for the channel
+	for range cities {
+		fmt.Print(<-ch)
+	}
 }
